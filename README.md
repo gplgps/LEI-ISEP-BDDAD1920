@@ -6,4 +6,4 @@ This repository contains my personal resolutions for the proposed exercises on t
 
 - This resolutions present in this repository are, currently, present in SQL.
 - For now, every resolution I came up will be posted here.
-- This repository contains the resolutions and the provided initial scripts to initialize the database (described as `init_script.sql`), if appliable, even though the questions will not be provided.
+- This repository contains the resolutions and the provided initial scripts to initialize the database (described as `init_script.sql` or `init_scriptX.sql`), if appliable, even though the questions will not be provided.
