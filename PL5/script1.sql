@@ -64,3 +64,13 @@ SELECT DISTINCT m.nome
                      SELECT b.id_barco
                       FROM barcos b INNER JOIN reservas r ON b.id_barco = r.id_barco
                       WHERE b.nome LIKE 'Interlake' AND r.id_marinheiro = m.id_marinheiro);
+                      
+--COMPLEMENTAR--
+--1
+SELECT *
+ FROM DUAL;
+
+SELECT id_marinheiro, nome, idade
+ FROM marinheiros
+ WHERE idade >= (SELECT MAX(idade)
+                  FROM marinheiros)
