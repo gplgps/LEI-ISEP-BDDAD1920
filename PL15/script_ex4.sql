@@ -1,6 +1,6 @@
 CREATE OR REPLACE TRIGGER trgVendasAtualizarSaldosCartaoCliente
     BEFORE INSERT OR DELETE ON VENDAS
-    FOR EACH ROW
+    FOR EACH ROW WHEN (TO_NUMBER(TO_CHAR(:old.data_hora, 'd')) IN (3, 4) OR TO_NUMBER(TO_CHAR(:new.data_hora, 'd')) IN (3, 4)))
     DECLARE
         l_saldo_acumulado CARTOES_CLIENTES.saldo_acumulado%type;
         l_saldo_atual CARTOES_CLIENTES.saldo_atual%type;
