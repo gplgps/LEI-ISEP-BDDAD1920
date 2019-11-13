@@ -1,0 +1,24 @@
+1 - V; F; V; F
+
+2a- F. Está na 2ª forma normal
+
+2b- R1 = {B_, C}
+    R2 = {A_, B}
+
+3a- 1FN. (Elementos não-chave não estão completamente dependentes da chave primária)
+
+3b- R1 = {A_,D, E}
+    R2 = {A_,B_,C}
+
+3c- Sim. Todos os elementos não-chave estão funcionalmente dependentes da chave primária.
+
+4 - c)
+
+5b- A, C
+
+5c- Não. Existem relações entre elementos não-chave
+
+5d- R1 = {A_,B}
+    R2 = {B_,D}
+    R3 = {A_,C_,F}
+    R4 = {E, F_,G}
